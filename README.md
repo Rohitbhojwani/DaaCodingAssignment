@@ -42,3 +42,18 @@ X + 5Y:
 <hr>
   
 Time Comlexity: O(N^2) 
+
+<hr>
+  
+Test Cases:
+<br>
+Case 1:
+<br>
+  ![Screenshot (22)](https://user-images.githubusercontent.com/91414774/202909332-00f9a774-0424-4ceb-acf9-170efa33440e.png)
+  
+<br>
+Case 2:
+  <br>
+
+
+
