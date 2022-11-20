@@ -39,3 +39,6 @@ X + 5Y:
 <br>
 4 + (5*3) = 19
 
+<hr>
+  
+Time Comlexity: O(N^2) 
