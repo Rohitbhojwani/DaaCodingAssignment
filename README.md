@@ -11,21 +11,20 @@ Section: A <br>
 <u>Consider two strings A = “qpqrr” and B = “pqprqrp”. Let x be the length of the longest common
 subsequence (not necessarily contiguous) between A and B and let y be the number of such longest
 common subsequence between A and B. 
+Then x + 5y = <br> Write program for above objective with three test cases</u>
+<hr>
+  
+  <Approach:>
+ 
+If there is match, A[i, j] = A[i - 1, j - 1] + 1
 <br>
-Then x + 5y = </u>
+If not match: max(A[i - 1, jl, A[i, j - 1])
+
 <hr>
 
 Table:
 
 ![unnamed](https://user-images.githubusercontent.com/91414774/202891817-9c558367-5737-4e4b-ad93-ead4670bda47.jpg)
-
-<hr>
-  
-<Approach:>
- 
-If there is match, A[i, j] = A[i - 1, j - 1] + 1
-<br>
-If not match: max(A[i - 1, jl, A[i, j - 1])
 
 <hr>
   
