@@ -20,7 +20,15 @@ Table:
 ![unnamed](https://user-images.githubusercontent.com/91414774/202891817-9c558367-5737-4e4b-ad93-ead4670bda47.jpg)
 
 <hr>
+  
+<Approach:>
+ 
+If there is match, Ali, jl = Ali - 1, j - 1] + 1
+<br>
+If not match: max(A[i - 1, jl, A[i, j - 1])
 
+<hr>
+  
 Output:
 
 X = Length of longest common subsequence = 4
