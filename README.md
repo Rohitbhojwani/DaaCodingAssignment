@@ -23,7 +23,7 @@ Table:
   
 <Approach:>
  
-If there is match, Ali, jl = Ali - 1, j - 1] + 1
+If there is match, A[i, j] = A[i - 1, j - 1] + 1
 <br>
 If not match: max(A[i - 1, jl, A[i, j - 1])
 
