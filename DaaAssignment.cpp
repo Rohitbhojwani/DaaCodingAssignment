@@ -82,11 +82,11 @@ set<string> LCS(string A, string B)
 
 int main()
 {
-	string A = "qpqrr", B = "pqprqrp";
+	string A = "hello", B = "hll";
 
 	set<string> lcs = LCS(A, B);
 
-	int y=0;
+	int y = 0;
 	int x = LCSLength(A, B, A.length(), B.length());
 	
 	cout << endl;
@@ -97,11 +97,18 @@ int main()
 	cout << "The Longest Subsequence are: " << endl;
 	for (string str : lcs)
 	{
-		if (str.size()==x)
+		if (str.size()==0)
 		{
-			y++;
-			cout << str << endl;
+			y=0;
 		}
+		else if (str.size()==x)
+		{
+			
+			cout << str << endl;
+			y++;
+		}	
+		
+		
 		
 	}
 	cout << endl;
@@ -109,7 +116,7 @@ int main()
 	cout << endl;
 	cout << "The length of the LCS is " << LCSLength(A, B, A.length(), B.length()) << endl;
 	cout << endl;
-	cout << "x+5y= " << x+(5*y) <<endl;
+	cout << "x + 5y= " << x+(5*y) <<endl;
 
 	return 0;
 }
