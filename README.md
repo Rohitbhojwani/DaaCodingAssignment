@@ -57,4 +57,9 @@ Case 2:
 
 ![Screenshot (23)](https://user-images.githubusercontent.com/91414774/202920949-53136df2-42bb-45c9-8a3b-2d251bf786b8.png)
   
+  <br>
+  
+Case 3:
+  <br>
+  ![Screenshot (24)](https://user-images.githubusercontent.com/91414774/202921085-43bf4f68-a261-4e1e-916d-bd624527572e.png)
 
