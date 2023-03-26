@@ -8,7 +8,6 @@ using namespace std;
 #include <set>
 #include <string>
 
-
 vector<string> LCS(string A, string B, int m, int n, auto &lookup)
 {
 
@@ -16,6 +15,7 @@ vector<string> LCS(string A, string B, int m, int n, auto &lookup)
 	{
 		return {""};
 	}
+
 
 	if (A[m - 1] == B[n - 1])
 	{
