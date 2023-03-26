@@ -16,7 +16,6 @@ vector<string> LCS(string A, string B, int m, int n, auto &lookup)
 		return {""};
 	}
 
-
 	if (A[m - 1] == B[n - 1])
 	{
 		vector<string> lcs = LCS(A, B, m - 1, n - 1, lookup);
